@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://badocoreditions.vercel.app/sitemap.xml
