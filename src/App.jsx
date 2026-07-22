@@ -1,4 +1,4 @@
-import './App.css'
+﻿import './App.css'
 
 import badocorLogo from './assets/logo/badocor-logo.webp'
 import bookCover from './assets/books/feast-of-the-gods-en.webp'
@@ -9,14 +9,14 @@ const purchaseOptions = [
     name: 'Amazon',
     format: 'Kindle Edition',
     description: 'Read the ebook on Kindle.',
-    url: 'https://www.amazon.com/stores/author/B0H89JRFSD',
+    url: 'https://www.amazon.com/dp/B0H6N8DCHS',
     className: 'store-card store-card--amazon',
   },
   {
     name: 'Etsy',
     format: 'Premium PDF',
     description: 'Download the premium PDF edition.',
-    url: 'https://badocoreditions.etsy.com',
+    url: 'https://www.etsy.com/listing/4539053485/peru-the-feast-of-the-gods-o-100',
     className: 'store-card store-card--etsy',
   },
   {
@@ -43,7 +43,7 @@ const editions = [
     flag: '🇧🇷',
     language: 'Português',
     title: 'PERÚ: A FESTA DOS DEUSES',
-  },  
+  },
 ]
 
 function App() {
@@ -170,7 +170,7 @@ function App() {
         <div className="feature-grid">
 
           <article className="feature-card">
-            <span className="feature-number">🍽</span>
+            <span className="feature-number">🍽️</span>
 
             <h3>Traditional Recipes</h3>
 
@@ -259,7 +259,7 @@ function App() {
             >
               <span className="store-format">{option.format}</span>
 
-              <h3>{option.name}</h3>
+                <h3>{option.name}</h3>
 
               <p>{option.description}</p>
 
